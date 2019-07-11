@@ -24,7 +24,7 @@ def data_dly(din, *, len):
 
 @gear
 def timeout_test(din):
-    dout = din | data_dly(len=110)
+    dout = din | data_dly(len=910)
 
     return dout
 
